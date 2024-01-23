@@ -1,0 +1,25 @@
+Field,Description
+mushroom-id,A unique identification for the hypothetical mushroom.
+poisonous,The target to tell if the mushroom is posionous or edible.
+cap-shape,The shape of the mushroom's cap.
+cap-surface,The texture of the mushroom's cap.
+cap-color,The color of the mushroom's cap.
+bruises,If the mushroom has bruises or not.
+odor,The smell of the mushroom.
+gill-attachment,The way the gills are attached to the cap of the mushroom.
+gill-spacing,The spacing between each of the mushroom's  gill.
+gill-size,The size of the mushroom's gills.
+gill-color,The color of the mushroom's gills.
+stalk-shape,The shape of the mushroom's stalk.
+stalk-root,The type of root structure the mushroom has.
+stalk-surface-above-ring,The texture of the stalk above the ring.
+stalk-surface-below-ring,The texture of the stalk below the ring.
+stalk-color-above-ring,The color of the stalk above the ring.
+stalk-color-below-ring,The color of the stalk below the ring.
+veil-type,The veil type of the mushroom.
+veil-color,The color of the veil on the mushroom.
+ring-number,The number of rings on the mushroom's stalk.
+ring-type,The type of ring on the mushroom.
+spore-print-color,The color that the spores leave when making a print of the mushroom.
+population,How the mushroom is typically found in their natural habitat.
+habitat,The natural environment where the mushroom is commonly found.
