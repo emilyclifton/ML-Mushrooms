@@ -13,7 +13,7 @@ This project involves binary classification, focusing on distinguishing between 
 2. **Precision**: Accuracy of positive predictions, measuring the models ability to correctly identify edible mushrooms.
 3. **Recall**: Ability of the model to identify all actual edible mushrooms.
 4. **F1 score**: Harmonic mean of precision and recall, providing a balanced measure that considers both false positives and false negatives.
-5. **AUC-ROC**: Measures the model's ability to distingish between classes. A higher AUC-ROC indicates better discrimination between edible and poisonous mushrooms.
+5. **AUC-ROC**: Measures the model's ability to distinguish between classes. A higher AUC-ROC indicates better discrimination between edible and poisonous mushrooms.
 ## Confusion Matrix
 A confusion matrix will be employed to evaluate the model's performance in predicting mushroom edibility.
 | Confusion Matrix | **Predicted: Edible (Positive)** | **Predicted: Poisonous (Negative)** |
@@ -28,6 +28,9 @@ A confusion matrix will be employed to evaluate the model's performance in predi
 ## Economic Cost of Misclassification
 Mushroom poisoning has been identified as a serious public health concern globally, with significant economic implications. This cost breakdown is designed to provide an approximate overview of the economic burden of mushroom poisoning based on the informatiom from [Epidemiology and Economic Burden of an Outbreak of Cyclopeptide-Containing Mushroom Poisoning in the West of Iran](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9337693/).
 ### Direct Costs:
+
+[comment]: These numbers appear to be calculated in the GDP of West Iran where the study was taken.  Would it make sense to adjust for US GDP?
+
 Direct medical costs and non-medical costs contribute to 10% of the total economic impact.
 1. **Direct Medical Costs**:
 
@@ -70,6 +73,8 @@ Indirect costs associated with disability and death contribute to 90% of the tot
 | ---------------- | -------------------------------- | ------------------------------------ |
 | **Actual: Edible** | True Positive - $0 (minimal or negligible) | False Negative - $892.19 (Average cost of hospitalization + 20%) |
 | **Actual: Poisonous** | False Positive - $53.93 (outpatient treatment) | True Negative - $0-$1757 (zero or total) |
+
+[comment]: I believe false positive and true negative are switched around.
 
 **Price Prediction Interpretation**:
 * **True Positive (TP)**: The cost of a true positive is minimal, as it accurately predicts that the mushroom is edible. Individuals in this category would not incur significant medical expenses or related costs.
