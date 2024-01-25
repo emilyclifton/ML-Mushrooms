@@ -27,9 +27,12 @@ A confusion matrix will be employed to evaluate the model's performance in predi
 * **False Negative (FN)**: Incorrectly predicted as poisonous when edible.
 ## Economic Cost of Misclassification
 Mushroom poisoning has been identified as a serious public health concern globally, with significant economic implications. This cost breakdown is designed to provide an approximate overview of the economic burden of mushroom poisoning based on the informatiom from [Epidemiology and Economic Burden of an Outbreak of Cyclopeptide-Containing Mushroom Poisoning in the West of Iran](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9337693/).
+
+*These numbers are calculated in the GDP of West Iran in 2019, I will look into adjusting for the US.*
+
 ### Direct Costs:
 
-[comment]: These numbers appear to be calculated in the GDP of West Iran where the study was taken.  Would it make sense to adjust for US GDP?
+[comment]: These numbers appear to be calculated in the GDP of West Iran where the study was taken.  Would it make sense to adjust for US GDP? (ask in class)
 
 Direct medical costs and non-medical costs contribute to 10% of the total economic impact.
 1. **Direct Medical Costs**:
@@ -71,10 +74,10 @@ Indirect costs associated with disability and death contribute to 90% of the tot
 ### Price Predictions:
 | Confusion Matrix | **Predicted: Edible (Positive)** | **Predicted: Poisonous (Negative)** |
 | ---------------- | -------------------------------- | ------------------------------------ |
-| **Actual: Edible** | True Positive - $0 (minimal or negligible) | False Negative - $892.19 (Average cost of hospitalization + 20%) |
-| **Actual: Poisonous** | False Positive - $53.93 (outpatient treatment) | True Negative - $0-$1757 (zero or total) |
+| **Actual: Edible** | True Positive - $0 (minimal or negligible) | False Negative - $53.93 (outpatient treatment) |
+| **Actual: Poisonous** | False Positive - $892.19 (Average cost of hospitalization + 20%) | True Negative - $0-$1757 (zero or total) |
 
-[comment]: I believe false positive and true negative are switched around.
+[comment]: I believe false positive and true negative are switched around. (fixed)
 
 **Price Prediction Interpretation**:
 * **True Positive (TP)**: The cost of a true positive is minimal, as it accurately predicts that the mushroom is edible. Individuals in this category would not incur significant medical expenses or related costs.
