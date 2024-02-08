@@ -1,25 +1,24 @@
-Field,Description
-mushroom-id,A unique identification for the hypothetical mushroom.
-poisonous,The target to tell if the mushroom is posionous or edible.
-cap-shape,The shape of the mushroom's cap.
-cap-surface,The texture of the mushroom's cap.
-cap-color,The color of the mushroom's cap.
-bruises,If the mushroom has bruises or not.
-odor,The smell of the mushroom.
-gill-attachment,The way the gills are attached to the cap of the mushroom.
-gill-spacing,The spacing between each of the mushroom's  gill.
-gill-size,The size of the mushroom's gills.
-gill-color,The color of the mushroom's gills.
-stalk-shape,The shape of the mushroom's stalk.
-stalk-root,The type of root structure the mushroom has.
-stalk-surface-above-ring,The texture of the stalk above the ring.
-stalk-surface-below-ring,The texture of the stalk below the ring.
-stalk-color-above-ring,The color of the stalk above the ring.
-stalk-color-below-ring,The color of the stalk below the ring.
-veil-type,The veil type of the mushroom.
-veil-color,The color of the veil on the mushroom.
-ring-number,The number of rings on the mushroom's stalk.
-ring-type,The type of ring on the mushroom.
-spore-print-color,The color that the spores leave when making a print of the mushroom.
-population,How the mushroom is typically found in their natural habitat.
-habitat,The natural environment where the mushroom is commonly found.
+Variable Name,Description,Type,Data Type,Encoded Category,Missing Values
+poisonous,A unique identification for the hypothetical mushroom.,categorical,char,e=edible p=poisonous,no
+cap-shape,The shape of the mushroom's cap.,categorical,char,b=bell c=conical x=convex f=flat k=knobbed s=sunken,no
+cap-surface,The texture of the mushroom's cap.,categorical,char,f=fibrous g=grooves y=scaly s=smooth,no
+cap-color,The color of the mushroom's cap.,categorical,char,n=brown b=buff c=cinnamon g=gray r=green p=pink u=purple e=red w=white y=yellow,no
+bruises,If the mushroom has bruises or not.,binary,char,t=bruises f=none,no
+odor,The smell of the mushroom.,categorical,char,a=almond l=anise c=creosote y=fishy f=foul m=musty n=none p=pungent s=spicy,no
+gill-attachment,The way the gills are attached to the cap of the mushroom.,categorical,char,a=attached d=descending f=free n=notched,no
+gill-spacing,The spacing between each of the mushroom's gill.,categorical,char,c=close w=crowded d=distant,no
+gill-size,The size of the mushroom's gills.,categorical,char,b=broad n=narrow,no
+gill-color,The color of the mushroom's gills.,categorical,char,k=black n=brown b=buff h=chocolate g=gray r=green o=orange p=pink u=purple e=red w=white y=yellow,no
+stalk-shape,The shape of the mushroom's stalk.,categorical,char,e=enlarging t=tapering,no
+stalk-root,The type of root structure the mushroom has.,categorical,char,b=bulbous c=club u=cup e=equal z=rhizomorphs r=rooted ?=missing,yes
+stalk-surface-above-ring,The texture of the stalk above the ring.,categorical,char,f=fibrous y=scaly k=silky s=smooth,no
+stalk-surface-below-ring,The texture of the stalk below the ring.,categorical,char,f=fibrous y=scaly k=silky s=smooth,no
+stalk-color-above-ring,The color of the stalk above the ring.,categorical,char,n=brown b=buff c=cinnamon g=gray o=orange p=pink e=red w=white y=yellow,no
+stalk-color-below-ring,The color of the stalk below the ring.,categorical,char,n=brown b=buff c=cinnamon g=gray o=orange p=pink e=red w=white y=yellow,no
+veil-type,The veil type of the mushroom.,binary,char,p=partial u=universal,no
+veil-color,The color of the veil on the mushroom.,categorical,char,n=brown o=orange w=white y=yellow,no
+ring-number,The number of rings on the mushroom's stalk.,categorical,char,n=none o=one t=two,no
+ring-type,The type of ring on the mushroom.,categorical,char,c=cobwebby e=evanescent f=flaring l=large n=none p=pendant s=sheathing z=zone,no
+spore-print-color,The color that the spores leave when making a print of the mushroom.,categorical,char,k=black n=brown b=buff h=chocolate r=green o=orange u=purple w=white y=yellow,no
+population,How the mushroom is typically found in their natural habitat.,categorical,char,a=abundant c=clustered n=numerous s=scattered v=several y=solitary,no
+habitat,The natural environment where the mushroom is commonly found.,categorical,char,g=grasses l=leaves m=meadows p=paths u=urban w=waste d=woods,no
