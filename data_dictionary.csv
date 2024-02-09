@@ -1,5 +1,5 @@
 Variable Name,Description,Type,Data Type,Encoded Category,Missing Values
-poisonous,A unique identification for the hypothetical mushroom.,categorical,char,e=edible p=poisonous,no
+poisonous,Our target to tell if the mushroom is edible or not,categorical,char,e=edible p=poisonous,no
 cap-shape,The shape of the mushroom's cap.,categorical,char,b=bell c=conical x=convex f=flat k=knobbed s=sunken,no
 cap-surface,The texture of the mushroom's cap.,categorical,char,f=fibrous g=grooves y=scaly s=smooth,no
 cap-color,The color of the mushroom's cap.,categorical,char,n=brown b=buff c=cinnamon g=gray r=green p=pink u=purple e=red w=white y=yellow,no
